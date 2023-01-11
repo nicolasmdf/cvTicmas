@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>        
+        <header>
+            <nav id="navbar">
+                <a href="#datos">Datos</a>
+                <a href="#estudios">Estudios</a>
+                <a href="#exp">Experiencia</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </header>
+        
+        <main>
+            <div id="datos">
+                <img src="./37.jpg" alt="" id="foto">
+                <div id="textoDatos">Soy Angel Graves, Dev</div>
+            </div>
+            <div id="estudios">
+                <p>Mi formacion es totalmente autodidacta.</p>  
+                <p>He realizado diversos cursos, los diplomas estan visibles:</p>     
+                <p><a href="https://www.google.com/search?q=diploma" target="_blank">AQUI</a></p>
+            </div>
+            <div id="exp">
+                <ul>
+                    <li>Google</li>
+                    <li>Amazon</li>
+                    <li>Tesla</li>
+                    <li>Facebook</li>
+                </ul>
+                <p>Estas son solo algunas de las empresas donde he trabajado.</p>
+            </div>
+            <div id="contacto">
+                <p id="textoCont">Si te interesa contactarme podes hacerlo a traves de mis redes sociales, o en su defecto completa este formulario y me comunicare con vos a la brevedad.</p>
+                <form id="formContacto" action="mailto:nicolasmdf@.com" method="post">
+                    <input type="text" name="nombre" placeholder="NOMBRE"/>
+                    <input type="text" name="mail" placeholder="EMAIL"/>
+                     <input id="campoClicks"  type="number" name="clicks">
+                    <input type="submit" value="ENVIAR"/>
+                </form>
+            </div>
+                
+        </main>
+        <div id="contador">
+            <p>Hiciste</p>
+            <div id="cuenta">0</div>
+            <p id="click">Clicks</p>
+        </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
